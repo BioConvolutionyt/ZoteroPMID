@@ -25,7 +25,7 @@
 
 ## 方案选择
 提供两种可选方案
-| | 方案 A：混合方案 | 方案 B：全自动方案（推荐） |
+| | 方案 A：混合方案（推荐） | 方案 B：全自动方案 |
 |---|---|---|
 | **Zotero 集成度** | 完整（Zotero 原生创建引用） | 较低（VBA 直接创建域代码） |
 | **切换引用样式** | 正常工作 | 可能需手动清除残留格式 |
@@ -39,10 +39,9 @@
 
 ### 前置准备（两种方案通用）
 
-1. 将 Markdown 文档转换为 `.docx` 格式
-2. 确保 Zotero 已运行，Word 工具栏中有 Zotero 选项卡
-3. 在 Zotero 中创建好目标集合（如 `我的文库 > Research > Citation`）
-4. 正确配置`ZoteroPMID_Zotero.js`中的COLLECTION_PATH参数（[见可配置参数](#可配置参数)）
+1. 确保 Zotero 已运行，Word 工具栏中有 Zotero 选项卡
+2. 在 Zotero 中创建好目标集合（如 `我的文库 > Research > Citation`）
+3. 正确配置`ZoteroPMID_Zotero.js`中的COLLECTION_PATH参数（[见可配置参数](#可配置参数)）
 
 ---
 
@@ -109,7 +108,7 @@
 
 ---
 
-### Step 3 — 方案 B：全自动插入（推荐）
+### Step 3 — 方案 B：全自动插入
 
 > 此方案速度快但 Zotero 集成度较低。需额外运行 Zotero JS 映射脚本。
 
